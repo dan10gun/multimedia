@@ -33,6 +33,7 @@ p {
   width: 40%;
   height: 100px;
   padding-top: 2rem;
+  transition: 0.8s;
 }
 
 .header-text {
@@ -44,18 +45,32 @@ p {
   background-position: center;
   margin: auto;
   margin-top: 2rem;
-  color: #fff;
+  color: rgb(168, 250, 218);
   text-shadow: 3px 3px 3px black;
 }
+
+/*grid to make title appear left*/
+
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-text h2,
+.header-text h3 {
+  grid-column: 1/2;
+}
+
 .header-text h2 {
   padding-top: 100px;
 }
 
 .header-text h2,
 .header-text h3 {
-  text-align: left;
-  margin-left: 4rem;
-  line-height: 4rem;
+  text-align: center;
+}
+.header-text h3 {
+  padding-bottom: 270px;
+  padding-left: 2rem;
 }
 
 /*Section A & C & some parts of D*/
@@ -158,6 +173,9 @@ form textarea {
 footer p {
   font-size: 1.5rem;
 }
+.footer {
+  padding: 0 2rem;
+}
 
 /*Media queries*/
 @media (min-width: 700px) {
@@ -178,6 +196,6 @@ footer p {
   }
   .logo img {
     height: 150px;
-    transition: 1.6s;
+    transition: 0.8s;
   }
 }
