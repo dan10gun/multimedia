@@ -24,11 +24,14 @@ p {
 /*logo*/
 .logo {
   margin: 0;
+  padding: 0;
 }
 .logo img {
+  display: block;
+
   margin: 0rem auto;
   width: 40%;
-  height: 150px;
+  height: 100px;
   padding-top: 2rem;
 }
 
@@ -172,5 +175,9 @@ footer p {
   .part1,
   .part2 {
     width: 50%;
+  }
+  .logo img {
+    height: 150px;
+    transition: 1.6s;
   }
 }
