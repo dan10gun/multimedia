@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 62.5%;
+  line-height: 3rem;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 2rem;
+}
+
+/*logo*/
+.logo img {
+  display: block;
+  background-size: cover;
+  margin: 2rem auto;
+  width: 40%;
+  height: 150px;
+}
+
+.header-text {
+  background-image: url(/assignment/planting1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 94%;
+  background-position: center;
+  margin: auto;
+  margin-top: 2rem;
+  color: #fff;
+  text-shadow: 3px 3px 3px black;
+}
+.header-text h2 {
+  padding-top: 100px;
+}
+
+.header-text h2,
+.header-text h3 {
+  text-align: left;
+  margin-left: 4rem;
+  line-height: 4rem;
+}
+
+/*Section A & C & some parts of D*/
+
+.section-a,
+.section-c,
+.section-d {
+  padding: 2rem 7.5rem;
+}
+.section-a h3,
+.section-c h3,
+.section-d h3 {
+  padding-bottom: 2rem;
+}
+.section-a p,
+.section-c p,
+.section-b p {
+  color: darkgreen;
+  text-shadow: 0.3px 0.3px 0.3px darkgreen;
+}
+.section-a,
+.section-c {
+  margin: 4rem 0rem;
+}
+
+/*Section a & d button*/
+.section-a button,
+.section-d button {
+  font-size: 1.5rem;
+  margin-top: 1.8rem;
+  padding: 0.8rem;
+  background: none;
+  text-transform: bold;
+  color: solid black;
+  border-radius: 0.6rem;
+}
+
+.section-a button:hover {
+  background: rgb(226, 211, 173);
+}
+.section-d button:hover {
+  background: white;
+}
+
+/*section-b*/
+.section-b {
+  background: rgb(226, 211, 173);
+  padding: 3rem 0;
+}
+
+.section-b ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.section-b li {
+  margin: 2rem;
+  padding-bottom: 2rem;
+  background: white;
+}
+
+.section-b-content {
+  padding: 2rem 3rem;
+}
+.section-b-content h3 {
+  margin-bottom: 2rem;
+}
+
+/*section d*/
+.section-d {
+  background: rgb(226, 211, 173);
+}
+.section-d p {
+  line-height: 3.6rem;
+}
+a img {
+  width: 2rem;
+  display: inline-block;
+  margin: 0 2rem;
+}
+.follow {
+  padding-bottom: 8rem;
+}
+
+/*section d form */
+form input,
+form label,
+form textarea {
+  display: block;
+  font-size: 2rem;
+}
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 50%;
+}
+
+/*footer*/
+
+footer p {
+  font-size: 1.5rem;
+}
+
+/*Media queries*/
+@media (min-width: 700px) {
+  .final1,
+  .final2,
+  .section-d {
+    display: flex;
+    justify-content: space-around;
+  }
+  .final1 li,
+  .final2 li {
+    width: 30%;
+  }
+
+  .part1,
+  .part2 {
+    width: 50%;
+  }
+}
