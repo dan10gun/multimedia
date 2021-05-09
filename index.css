@@ -6,6 +6,11 @@
   font-size: 62.5%;
   line-height: 3rem;
 }
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
 img {
   display: block;
   width: 100%;
